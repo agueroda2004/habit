@@ -63,7 +63,7 @@ export function LoginPage() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="tu@correo.com"
-            className="mb-4 h-12 w-full rounded-2xl border-2 border-zinc-200 bg-zinc-50 px-4 text-sm font-medium text-zinc-800 outline-none transition placeholder:text-zinc-400 focus:border-primary-400 focus:bg-white"
+            className="mb-4 h-12 w-full rounded-2xl border-2 border-zinc-200 bg-zinc-50 px-4 text-base font-medium text-zinc-800 outline-none transition placeholder:text-zinc-400 focus:border-primary-400 focus:bg-white"
           />
 
           <label className="mb-1.5 block text-sm font-bold text-zinc-600" htmlFor="login-password">
@@ -76,7 +76,7 @@ export function LoginPage() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             placeholder="••••••••"
-            className="mb-5 h-12 w-full rounded-2xl border-2 border-zinc-200 bg-zinc-50 px-4 text-sm font-medium text-zinc-800 outline-none transition placeholder:text-zinc-400 focus:border-primary-400 focus:bg-white"
+            className="mb-5 h-12 w-full rounded-2xl border-2 border-zinc-200 bg-zinc-50 px-4 text-base font-medium text-zinc-800 outline-none transition placeholder:text-zinc-400 focus:border-primary-400 focus:bg-white"
           />
 
           {error && (
